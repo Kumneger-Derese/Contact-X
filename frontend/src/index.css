@@ -1,0 +1,60 @@
+@import 'tailwindcss';
+@plugin "daisyui" {
+  themes: silk --default;
+  logs: true;
+}
+
+.text-gradient {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(
+    45deg,
+    #c49c6e,
+    rgb(255, 158, 47),
+    #33dd5b,
+    #0f795f,
+    #1d72fb,
+    #9547e3,
+    rgb(255, 158, 47),
+    rgb(255, 158, 47)
+  );
+}
+
+.blue-theme {
+  color: white;
+  transition: background 300s 75s ease-in;
+  background-image: radial-gradient(
+    circle,
+    rgb(2, 2, 116),
+    rgb(2, 2, 90),
+    rgb(2, 2, 70)
+  );
+}
+
+.product-shadow {
+  box-shadow: 0px 0px 4rem oklch(62.3% 0.214 259.815);
+}
+.product-shadow-2 {
+  box-shadow: 0px 0px 1rem oklch(62.3% 0.214 259.815);
+}
+
+/*For firefox*/
+/* html {
+  scrollbar-width: thin;
+  scrollbar-color: #9e6407, #4f3204;
+} */
+
+/*For others*/
+html::-webkit-scrollbar,
+.search {
+  width: 1vw;
+}
+html::-webkit-scrollbar-thumb,
+.search {
+  background-color: #bd6022;
+  border-radius: 1px;
+}
+html::-webkit-scrollbar-track,
+.search {
+  background: #381e08;
+}

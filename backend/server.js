@@ -13,7 +13,7 @@ import {
   notFound,
 } from './middleware/error/errorMiddleware.js';
 
-//* Db and  .env config
+//* Db and  .env configuration
 connectDB();
 
 const app = express();

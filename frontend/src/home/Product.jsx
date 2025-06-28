@@ -1,4 +1,5 @@
 import { productBenefits } from '../constants';
+import ProductImage from '../../asset/product.png';
 
 export default function Product() {
   return (
@@ -13,7 +14,7 @@ export default function Product() {
       <div className='flex gap-y-20 flex-col items-center'>
         <section className='lg:w-4/6 relative'>
           <img
-            src='../../asset/product.png'
+            src={ProductImage}
             alt='product.png'
             className='w-[100%] mb-16 lg:w-[80%] z-[2000] lg:mx-auto product-shadow'
           />

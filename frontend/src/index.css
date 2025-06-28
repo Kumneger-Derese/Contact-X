@@ -58,3 +58,7 @@ html::-webkit-scrollbar-track,
 .search {
   background: #381e08;
 }
+
+body {
+  font-family: inter, Arial, Helvetica, sans-serif;
+}

@@ -81,7 +81,7 @@ export default function Contacts() {
 
   if (isError) {
     return (
-      <div className='fixed inset-0 h-screen p-64 text-red-500 font-bold text-lg flex justify-center items-center  z-50'>
+      <div className='h-screen p-64 text-red-500 font-bold text-lg flex justify-center items-center  z-50'>
         <p className='border-gray-600 border border-dashed rounded-md p-12'>
           {error?.data?.message || 'An error occurred'}
         </p>
